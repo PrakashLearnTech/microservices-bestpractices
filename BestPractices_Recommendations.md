@@ -47,4 +47,4 @@ When we develop the code to integrate with vendor managed services, make sure co
 
 If the Amazon s3 is used, the conditional beans should be developed for Azure Blob Storage as well. Same applicable for any vendor managed service like messaging(SQS) etc.,
 
-The basic guiding principle is - leverage vendor managed service, but never gets locked in.
+The basic guiding principle is - leverage vendor managed service, but never get locked in.

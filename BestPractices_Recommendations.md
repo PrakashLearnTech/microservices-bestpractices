@@ -11,11 +11,11 @@ One of the main advantage is, it decouples code deployment and feature release. 
 
 Few products available in the market - 
 
-1) Optimizely (Optimizely Rollouts is a free product)
-2) CloudBees
-3) LaunchDarkly
-4) DevCycle
-5) Apptimize
+- Optimizely (Optimizely Rollouts is a free product)
+- CloudBees
+- LaunchDarkly
+- DevCycle
+- Apptimize
 
 The feature flags also helps in scenarios like - A/B Testing and Feature gating.
 

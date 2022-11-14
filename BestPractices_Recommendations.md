@@ -1,7 +1,7 @@
 # microservices-bestpractices
 Microservices: bestpractices and recommendations
 
-## a) Feature flags:
+## (a) Feature flags:
 
 Feature flags (also known as feature toggles or feature switches) are a software development technique that turns certain functionality on and off during runtime, without deploying new code. This allows for better control and more experimentation over the full lifecycle of features.
 
@@ -19,7 +19,7 @@ Few products available in the market -
 
 The feature flags also helps in scenarios like - A/B Testing and Feature gating.
 
-## b) AbstractRoutingDataSource - 
+## (b) AbstractRoutingDataSource - 
 
 Assuming most of the micro services are going to be developed using spring boot AbstractRoutingDataSource 
 api can be used in some commmon scenarios.
@@ -34,7 +34,7 @@ Based on lookup keys, we can determine which data source need to be invoked can 
 
 Also, there are scenarios where read only replica data base access will be sufficient for some use cases. The routing for such criteria can also be controlled with AbstractRoutingDataSource.
 
-##  c) Functional abstraction:
+##  (c) Functional abstraction:
 
 When developing cloud native micro services, the code we develop inadeverently gets coupled to the 
 cloud vendor platform we are hosting it.

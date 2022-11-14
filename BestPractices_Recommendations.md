@@ -1,7 +1,7 @@
 # microservices-bestpractices
 Microservices: bestpractices and recommendations
 
-<B>A) Feature flags:</B>
+##A) Feature flags:
 
 Feature flags (also known as feature toggles or feature switches) are a software development technique that turns certain functionality on and off during runtime, without deploying new code. This allows for better control and more experimentation over the full lifecycle of features.
 

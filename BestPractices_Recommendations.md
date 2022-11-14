@@ -48,3 +48,9 @@ When we develop the code to integrate with vendor managed services, make sure co
 If the Amazon s3 is used, the conditional beans should be developed for Azure Blob Storage as well. Same applicable for any vendor managed service like messaging(SQS) etc.,
 
 The basic guiding principle is - leverage vendor managed service, but never get locked in.
+
+##  (d) Open Policy Agent(OPA) usage:
+
+The Open Policy Agent is an open source, general-purpose policy engine that unifies policy enforcement across the stack. OPA provides a high-level declarative language that lets you specify policy as code and simple APIs to offload policy decision-making from your software. The policy enforcement might be performed for various components like Kubernetes, CI/CD pipelines.
+
+Also, we can use OPA to implement fine-grained access control for your application by writing rego policies. 
